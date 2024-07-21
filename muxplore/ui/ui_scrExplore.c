@@ -557,7 +557,7 @@ void ui_scrExplore_screen_init(void)
     lv_obj_set_width(ui_lblHelpDescription, 515);
     lv_obj_set_height(ui_lblHelpDescription, 250);
     lv_obj_set_align(ui_lblHelpDescription, LV_ALIGN_CENTER);
-    lv_label_set_long_mode(ui_lblHelpDescription, LV_LABEL_LONG_SCROLL_CIRCULAR);
+    lv_label_set_long_mode(ui_lblHelpDescription, LV_LABEL_LONG_WRAP);
     lv_label_set_text(ui_lblHelpDescription, "");
     lv_obj_set_style_text_color(ui_lblHelpDescription, lv_color_hex(0xA5B2B5), LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui_lblHelpDescription, 255, LV_PART_MAIN | LV_STATE_DEFAULT);
